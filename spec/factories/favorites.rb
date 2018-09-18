@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :favorite do
     member nil
     item nil

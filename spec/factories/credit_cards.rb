@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :credit_card do
     member nil
     stripe_card_id "MyString"

@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :purchage do
     member nil
     credit_card nil

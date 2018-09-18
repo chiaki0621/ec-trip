@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery3
-//= require popper.js/dist/umd/popper.js
-//= require tether/dist/js/tether
-//= require bootstrap-material-design/js/bootstrap-material-design
+//= require popper
+//= require bootstrap-sprockets
+//= require material
 //= require postal_code

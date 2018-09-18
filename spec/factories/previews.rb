@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :preview do
     manager nil
     content "MyText"

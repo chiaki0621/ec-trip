@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require popper.js/dist/umd/popper.js
+//= require popper
 //= require bootstrap.min
 //= require js/coreui
 //= require util

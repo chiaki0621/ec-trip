@@ -53,9 +53,18 @@ gem 'daemons', '~> 1.2.4'
 gem 'enum_help', '~> 0.0.17'
 gem 'active_hash', '~> 1.5.2'
 gem 'bower-rails'
-gem 'bootstrap', '~> 4.0.0.beta2'
+
+#add bootstrap
+# gem 'bootstrap', '~> 4.0.0.beta2'
+# gem 'sass-rails', '~> 5.0'
+# gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap', '~> 4.1.1'
+gem 'jquery-rails'
+gem 'material-sass', '4.1.1'
+
 gem 'haml-rails'
 gem 'httpclient'
+
 
 group :production do
   gem 'unicorn', '~> 5.3.0'
@@ -68,7 +77,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.6'
   gem 'spring-commands-rspec', '~> 1.0'
   gem 'capybara', '~> 2.14'
-  gem 'factory_girl_rails', '~> 4.8'
+#  gem 'factory_girl_rails', '~> 4.8'
+  gem 'factory_bot_rails'
 end
 
 group :development do

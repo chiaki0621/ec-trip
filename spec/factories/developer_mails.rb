@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :developer_mail do
     email "MyString"
   end
