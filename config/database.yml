@@ -16,10 +16,10 @@ test:
 
 production:
   <<: *default
-  host: ec-trip.cplv5izuxzqx.us-east-2.rds.amazonaws.com
+  host: <%= ENV['PRO_DATABASE_HOST'] %>
   charset: utf8mb4
   encoding: utf8mb4
   collation: utf8mb4_unicode_ci
   database: ec-trip_production
-  username: ec-trip_app_user
-  password: mayako0127
+  username: <%= ENV['PRO_DATABASE_USERNAME'] %>
+  password: <%= ENV['PRO_DATABASE_PASSWORD'] %>
