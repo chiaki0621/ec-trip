@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'dotenv-rails', '~> 2.1.1'
-gem 'devise', '~> 4.3.0'
+gem 'devise', '~> 4.7.1'
 gem 'omniauth-oauth2', '~> 1.4.0'
 gem 'omniauth-twitter', '~> 1.4.0'
 gem 'omniauth-facebook', '~> 4.0.0'
